@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding: 0;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    body
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 250px;
+    }
+    button
+    {
+        padding:10px;
+        color: white;
+        background-color: blueviolet;
+        border: 10px blueviolet;
+        margin-top: 20px;
+        cursor: pointer;
+        
+    }
+</style>
+<body>
+    <div>
+    <h1>Count:0</h1>
+    <button  onclick = "convert()">Increment</button>
+    <button onclick = "convert1()">Decrement</button>
+    <button onclick = "convert2()">Reset</button>
+    </div>
+
+
+    <script>
+        function convert()
+        {
+            const increment = document.getElementById("h1");
+            const result = count+1;
+            result.innerHTML= increment
+
+        }
+    
+    </script>
+</body>
+</html>
