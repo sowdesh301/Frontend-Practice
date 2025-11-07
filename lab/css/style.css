@@ -1,0 +1,153 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:100vh;
+    
+}
+
+.ui 
+{
+    min-width: 800px;
+    height:50px;
+    border:1px  solid steelblue;
+    background-color: steelblue;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    
+
+    
+}
+
+
+nav {
+    min-width: 800;
+    height: 40px;
+    background-color: midnightblue;
+    padding: 10px;
+    text-align: center;
+    word-spacing: 50px;
+    
+    
+      
+    
+}
+
+nav a{
+      text-decoration: none;
+      color:white;
+      
+
+      
+}
+
+
+nav a:hover
+{
+    color:blueviolet
+
+}
+
+
+
+.container 
+{
+  width:800px;
+  height: 500px;
+  background-color: white;
+  margin-left: 200px;
+  margin-top: auto;
+  
+
+
+}
+.form{
+    margin-top: 20px;
+}
+
+.main
+{
+
+    margin-top: 50px;
+    margin-left: 30px;
+    
+
+}
+
+
+.button
+{
+    background-color: red;
+    color: white;
+    width: 10em;
+    height: 3em;
+    border-radius: 6px ;
+    border: 1px solid red;
+    margin-left: 30px;
+
+      
+     
+}
+.input
+{
+
+    margin-top:10px;
+    margin-left: 30px;
+    
+}
+
+
+
+
+
+
+
+#name{
+    width:750px;
+    height:30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#email
+{
+    width:750px;
+    height:30px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+#password
+{
+    width:750px;
+    height:30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#button
+{
+    margin-top: 10px;
+    width:100px;
+    height:40px;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: aquamarine;
+    color: white;
+    border: 1px solid aquamarine;
+}
+
+
+.foot
+{
+    width: 800px;
+    height: 50px;
+    background-color: steelblue;
+    text-align: center;
+    color: white;
+    margin: auto;
+    
+}
