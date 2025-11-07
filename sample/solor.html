@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width", initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+    .sun{
+        width: 100px;
+        height:100px;
+        border-radius: 50%;
+        background-color: rgb(238, 238, 17);
+        background: radial-gradient(rgb(217, 217, 58));
+        border: 1px solid yellow;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-shadow: 0 0 100px  rgba(255,221,0, 0.8);
+        top:50%;
+        left:50%;
+    
+    }
+    .orbit{
+        top:50%;
+        left: 50%;
+        border: dashed  gray;
+        border-radius: 50%;
+        position: absolute;
+        animation: rotate 10s linear infinite;
+
+
+    }
+    .orbit1{
+        width: 200px;
+        height:200px;
+        margin:-100px;
+        animation-duration:10s;
+    }
+    .planet{
+        top: 50%;
+        left:100%;
+        position:absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: radial-gradient(blue);
+        transform: translate(-50%,-50%);
+    
+    }
+    .planet1{
+        background: radial-gradient(circle,#00f,#005);
+    }
+    @keyframes rotate{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform:rotate(360deg)
+        }
+    }
+</style>
+<body>
+    <div class="sun"></div>
+    <div class="orbit orbit1">
+        <div class="planet planet1"></div>
+    </div>    
+</body>
+</html>

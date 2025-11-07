@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            width:100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background:linear-gradient(to right,rgb(215, 51, 187),rgb(236, 229, 21),rgb(133, 51, 211));
+            border: 1px solid black;
+        
+            animation: box 7s linear infinite;
+            
+            
+        }
+        @keyframes box{
+            0%{
+                transform: translate(300px);
+            }
+            50%{
+                transform:rotate(360deg)
+            }
+            100%{
+                transform:skew(30deg) 
+            }
+        }
+        
+    </style>
+<body>
+     <div class="box"></div>
+</body>
+</html>
